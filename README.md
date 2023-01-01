@@ -1,48 +1,46 @@
 # replit-trojan
 
-## 鸣谢
+## Acknowledgements
 
 - [Project X](https://github.com/XTLS/Xray-core)
 
-## 概述
+## Overview
 
-本项目用于在 Replit 免费服务上部署 Trojan Websocket 协议，支持 WS-0RTT 降低延迟。
+This project is used to deploy Trojan Websocket protocol on Replit free service with WS-0RTT support to reduce latency.
 
-## 注意
+## Caution
 
- **请勿滥用，账号封禁风险自负。网络流量每月有100GB软上限。**
+ **Please do not abuse, account blocking is at your own risk. Network traffic has a soft cap of 100GB per month.**
  
- **旧款安卓设备证书得不到更新，如无法连接，可尝试打开跳过证书验证**
+ **Older Android devices certificate is not updated, if you can't connect, try to open skip certificate verification**
 
-## 部署
+## Deployment
  
-前往 replit.com 注册账户，然后点击下方按钮
+Go to replit.com to sign up for an account, then click the button below
 
-<a href="https://repl.it/github/wy580477/replit-trojan">
+<a href="https://repl.it/github.com/vijay-kumar2/replit-trojan">
   <img alt="Run on Repl.it" src="https://repl.it/badge/github/andbruibm/reader-replit" style="height: 40px; width: 190px;" />
 </a>
 
-再点击 Import from Github。
+Then click Import from Github.
 
-### 一键自动部署
+### One-click auto-deploy
 
-点击网页上方 Run，稍等片刻即部署完成，右侧console窗口会自动输出分享链接和二维码，可以使用v2rayn/v2rayng客户端扫码。
+Click Run at the top of the page, wait a moment and the deployment will be finished, the right console window will automatically output the sharing link and QR code, you can use v2rayn/v2rayng client to scan the code.
 
-Trojan密码和Websocket路径为随机生成，存储在Repl数据库里。
+Trojan password and Websocket path are randomly generated and stored in Repl database.
 
-### 手动设置部署
+### Set up the deployment manually
 
-点击左侧Secrets，在右侧选项卡分别设置 PASSWORD（Trojan协议密码）和 WSPATH（Websocket路径）变量。
+Click Secrets on the left side and set the PASSWORD (Trojan protocol password) and WSPATH (Websocket path) variables respectively on the right tab.
 
-![image](https://user-images.githubusercontent.com/98247050/205805317-349f4814-5d1b-4fba-8d53-7de12a7f1810.png)
+! [image](https://user-images.githubusercontent.com/98247050/205805317-349f4814-5d1b-4fba-8d53-7de12a7f1810.png)
 
-然后点击网页上方 Run，稍等片刻即部署完成。
+Then click Run at the top of the page and wait a few moments for the deployment to complete.
 
-手动客户端设置示例，右侧 Webview 预览选项卡地址栏内为服务器域名：
+Example of manual client setup, with the server domain name in the address field of the Webview preview tab on the right: !
 
-![image](https://user-images.githubusercontent.com/98247050/205805711-75a6ddcf-20c6-4e2c-a90a-05dc979ade45.png)
+! [image](https://user-images.githubusercontent.com/98247050/205805711-75a6ddcf-20c6-4e2c-a90a-05dc979ade45.png)
 
-如需设置自定义域名，点击 Webview 预览选项卡的地址栏右侧铅笔图标，即可进入向导。
-
-
+To set up a custom domain name, click the pencil icon on the right side of the address bar of the Webview preview tab to enter the wizard.
 
