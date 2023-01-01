@@ -34,13 +34,13 @@ Trojan password and Websocket path are randomly generated and stored in Repl dat
 
 Click Secrets on the left side and set the PASSWORD (Trojan protocol password) and WSPATH (Websocket path) variables respectively on the right tab.
 
-! [image](https://user-images.githubusercontent.com/98247050/205805317-349f4814-5d1b-4fba-8d53-7de12a7f1810.png)
+![image](https://user-images.githubusercontent.com/98247050/205805317-349f4814-5d1b-4fba-8d53-7de12a7f1810.png)
 
 Then click Run at the top of the page and wait a few moments for the deployment to complete.
 
 Example of manual client setup, with the server domain name in the address field of the Webview preview tab on the right: !
 
-! [image](https://user-images.githubusercontent.com/98247050/205805711-75a6ddcf-20c6-4e2c-a90a-05dc979ade45.png)
+![image](https://user-images.githubusercontent.com/98247050/205805711-75a6ddcf-20c6-4e2c-a90a-05dc979ade45.png)
 
 To set up a custom domain name, click the pencil icon on the right side of the address bar of the Webview preview tab to enter the wizard.
 
