@@ -18,7 +18,7 @@ This project is used to deploy Trojan Websocket protocol on Replit free service 
  
 Go to replit.com to sign up for an account, then click the button below
 
-<a href="https://repl.it/github.com/vijay-kumar2/replit-trojan">
+<a href="https://repl.it/github/vijay-kumar2/replit-trojan">
   <img alt="Run on Repl.it" src="https://repl.it/badge/github/andbruibm/reader-replit" style="height: 40px; width: 190px;" />
 </a>
 
